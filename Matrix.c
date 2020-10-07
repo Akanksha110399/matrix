@@ -16,6 +16,7 @@ int main()
 	{
 		for(j=0; j<n; j++)
 		{
+                        printf("\nelement[%d][%d]:", i,j);
 			scanf("%d", &a[i][j]);
 		}
 	}
